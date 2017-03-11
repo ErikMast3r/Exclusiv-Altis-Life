@@ -1321,7 +1321,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	
     class C_SUV_01_F {
         vItemSpace = 10;
-        conditions = "license_civ_driver || license_cop_cDriver";
+        conditions = "license_civ_driver || license_cop_cDriver || license_med_mDriver";
         price = 95000;
         textures[] = {
             { "Dunkelrot", "civ", {
